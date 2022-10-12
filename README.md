@@ -1,2 +1,5 @@
 # Sammy-s-Rental-Price
-.java file
+Objective:
+Sammy’s Seashore Supplies rents beach equipment such as kayaks, canoes, beach chairs, and umbrellas to tourists.  Write a program that prompts the user for the number of minutes they rented the piece of sports equipment.  Compute the rental cost as $40 per hour plus $1 for each additional minute.  (You might have surmised already this rate has a logical flaw, but for now, calculate rates as described here.  You can fix the problem after we learn decision-making.)  Display Sammy’s motto “Sammy’s makes it fun in the sun” surrounded by a border composed of repeated “Ss.”
+
+This project takes the input from the user using the JOptionPane catalog. For the hour input, it takes a while loop to check if the hours given is greater than 60, then adds 1 to an hour count variable and decreases the hour(s) spent from the original hour price. When the while loop is done, it adds the minutes to a money variable ($1 per one minute). At the end of this, it adds now the hours and adds it to the money variable ($40 per one hour).
